@@ -12,7 +12,8 @@ name: pi2708-2
 on:
   schedule:
     - cron: 0 20 * * *
-  push:（这三行去掉注释则开始运行。）
+      
+  push:
     branches: 
       - master
   #
