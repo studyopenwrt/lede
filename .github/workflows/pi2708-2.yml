@@ -7,14 +7,14 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: pi2708-1
+name: pi2708-2
 
 on:
   schedule:
     - cron: 0 20 * * *
-  #push:（这三行去掉注释则开始运行。）
-    #branches: 
-      #- master
+  push:（这三行去掉注释则开始运行。）
+    branches: 
+      - master
   #
   # release:
   #   types: [published]
